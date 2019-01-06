@@ -5,16 +5,29 @@
 body {
   padding-bottom: 3rem;
   color: #5a5a5a;
+  height: 100%; 
 }
 
+html
+{
+   height: 100%; 
+}
 
 .test {
 	background-color: #84CEEB;
-	padding: 100px;
+	height: 120%; 
+	vertical-align: middle;
+	display : flex;
+    align-items : center;
 }
 
 
-
+p.lead
+{
+	padding-left: 5%;
+    padding-right: 5%;
+ 	
+}
 
 /* Featurettes
 ------------------------- */
@@ -28,6 +41,14 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.featurette-image
+{
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
