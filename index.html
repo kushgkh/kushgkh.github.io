@@ -3,31 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
     <meta name="author" content="Kush Khanolkar">
 
     <title>Kush Khanolkar</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
     <link href="main.css" rel="stylesheet">
   </head>
   <body>
   
 	  <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
 
-		  <!-- Links -->
 		  <ul class="navbar-nav">
 			<li class="nav-item">
 			  <a class="nav-link" href="#title">Title</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="#Highlights">Highlights</a>
+			  <a class="nav-link" href="#Highlights">Work Experience</a>
 			</li>
 			<li class="nav-item">
 			  <a class="nav-link" href="#Projects">Projects</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="Resources\Kush_Khanolkar_Resume.pdf">Resume</a>
 			</li>
 		  </ul>
 
@@ -35,32 +34,55 @@
   
 	  <div class="jumbotron text-center test" id="title">
         <div class="container title-text">
+		  <img class="rounded-circle profPic" src="Images/kush2.jpg" alt="Generic placeholder image" width="25%" height="25%">
+		  <p></p>
           <h1 class="jumbotron-heading">Kush Khanolkar</h1>
+		  
           <p class="lead text-muted">
 		  
 		  Hello and welcome to my site! Feel free to check out my 
 		  
-		  <a href= "https://drive.google.com/file/d/11lXjTLjmOJ_vCdf8wBfPRpxrdDWtHvFn/view?usp=sharing">Resume </a>
+		  <a href= "Resources\Kush_Khanolkar_Resume.pdf">Resume </a>
 		  and 
 		  <a href= "https://github.com/kushgkh">Github </a> as well!
 		  
 		  </p>
         </div>
       </div>
-        <!-- START THE FEATURETTES -->
+	  <!--
+	  <hr class="featurette-divider">
+	  <div class="profile" id="title">
+	     
+         <div class="col-md-2 profileSide">
+			<div class="container name">
+			<h1 > Kush Khanolkar </h1>
+			<p > UC Berkeley EECS student </p>
+		    
+			</div>
+		 </div>
+		 
+		 <div class="col-10 profileMain">
+		 <h1> About Me </h1>
+		 
+		 <p> My name is Kush Khanolkar and I'm a second year EECS undergrad at UC Berkeley.
 
+		  </p>
+		 </div>
+      </div>
+	  !-->
+		
+		<h1 class="SectionHead container"  id="Highlights"> Work Experience  </h1>
 
-		<h1 id="Highlights"> Highlighted Personal Projects </h1>
         <hr class="featurette-divider">
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Code Carbon</h2>
-            <p class="lead">A Mobile Environmental Education Game Platform to teach youth about the dangers of and solutions for climate change. Available for 
-			<a href="https://play.google.com/store/apps/details?id=code.code.codecarbon&hl=en_US"> Android</a>!</p>
+            <h2 class="featurette-heading">Software Development Intern</h2>
+            <p class="lead"> Used Microsoft Azure Cognitive Services APIs in C# to develop a Universal Windows Platform (UWP)
+application that assists therapists teach emotion recognition to children with autism.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="Images/Code_Carbon.PNG" >
+            <img class="featurette-image img-fluid mx-auto" src="Images/mslogo.jpg" >
           </div>
         </div>
 
@@ -68,11 +90,12 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Safe World </h2>
-            <p class="lead">An interactive pathing tool that allows travelers to find safe walking directions through cities and other urban environments. Calhacks Travel and VR Application winner. Check it out <a href= "https://safeworld-d9eac.firebaseapp.com/">here</a>.</p>
+            <h2 class="featurette-heading">Machine Learning Lead Developer </h2>
+            <p class="lead">Working as a Machine Learning Developer on various consulting projects from around the Bay Area.
+</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="Images/SafeWorld.PNG">
+            <img class="featurette-image img-fluid mx-auto" src="Images/cb2.png">
           </div>
         </div>
 
@@ -80,26 +103,27 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Gifter</h2>
-            <p class="lead">A monthly surprise gift giving program using NLP based preference identification.</p>
+            <h2 class="featurette-heading">Data Mining Intern</h2>
+            <p class="lead"> Data mined the EkoSonic catheter large scale anonymous data logs in Python for patterns and abnormalities in device
+statistics. </p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="Images/Gifter.PNG">
+            <img class="featurette-image img-fluid mx-auto" src="Images/btg.jpg">
           </div>s
         </div>
 
         <hr  class="featurette-divider" id="Projects">
 
-        <!-- /END THE FEATURETTES -->
 		
 		
 		
 		
 	
-	  
+	  <h1 class="SectionHead" id="Highlights"> Personal Projects  </h1>
+	 
 	  <!-- Remaining personal projects -->
 		
-      <div class="album py-5 bg-light" >
+      <div class="album py-5" >
         <div class="container">
 
           <div class="row">
@@ -211,7 +235,7 @@
 
             </div>
 
-      </div><!-- /.container -->
+      </div>
 	  
 	  
 	  
@@ -223,14 +247,9 @@
       </footer>
     </main>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../../../assets/js/vendor/popper.min.js"></script>
     <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
   </body>
 </html>

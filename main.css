@@ -14,12 +14,43 @@ html
 }
 
 .test {
-	background-color: #84CEEB;
+	background-color: #9ebbcf;
 	height: 120%; 
 	vertical-align: middle;
 	display : flex;
     align-items : center;
 }
+
+.profile {
+	height: 100%; 
+	vertical-align: middle;
+	display : flex;
+    align-items : center;
+}
+.profileSide {
+	height: 100%; 
+	align-items : center;
+	display : flex;
+
+	background-color: #64CEFF;
+}
+
+.SectionHead
+{
+
+    text-align : center;
+	font-size: 70px;
+	margin-bottom: 3%;
+}
+.name
+{
+	text-align: center;
+}
+.profileMain {
+	height: 100%; 
+	background-color: #87bfff;
+}
+
 
 
 p.lead
@@ -33,7 +64,7 @@ p.lead
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
